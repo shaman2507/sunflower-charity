@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sunflower Foundation</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+        integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/mobile.css">
+    <link rel="stylesheet" href="./css/tablet.css">
+    <link rel="stylesheet" href="./css/desktop.css">
+    
+
+</head>
+
+<body>
+    <header class="header">
+        <div class="container header-container">
+            <nav class="header-navigation">
+                <a class="header-logo" href="./index.html"><img src="/img/logo.png" alt="Sunflower logo" class="header-logo-img"></a>
+                <ul class="header-list">
+                    <li class="header-item">
+                        <a href="./index.html" class="header-link current">Projects</a>
+                    </li>
+                    <li class="header-item">
+                        <a href="./about.html" class="header-link">About</a>
+                    </li>
+                    <li class="header-item">
+                        <a href="./contacts.html" class="header-link">Contacts</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <address class="header-address">
+                <ul class="header-address-list">
+                    <li class="header-address-item"><a href="mailto:sunflower.foundation.ua@gmail.com"
+                            class="header-address-link">sunflower.foundation.ua@gmail.com</a></li>
+                    <li class="header-address-item"><a href="tel:+38269345910" class="header-address-link">+38 (269) 345-910</a>
+                    </li>
+                </ul>
+            </address>
+
+            <button type="button" class="menu-open-btn" data-menu-open>
+                <svg class="menu-btn-icon" width="32" height="28">
+                    <use href="#icon-menu">
+                        <symbol id="icon-menu" viewBox="0 0 32 32">
+                            <path d="M2 6h28v6h-28zM2 14h28v6h-28zM2 22h28v6h-28z"></path>
+                        </symbol>
+                    </use>
+                </svg>
+            </button>
+        </div>
+
+        <div class="mob-menu is-hidden" data-menu>
+            <button type="button" class="menu-close-btn" data-menu-close>
+                <svg class="mob-menu-close-btn" width="16" height="16">
+                    <use href="#icon-cross">
+                        <symbol id="icon-cross" viewBox="0 0 32 32">
+                            <path
+                                d="M31.708 25.708c-0-0-0-0-0-0l-9.708-9.708 9.708-9.708c0-0 0-0 0-0 0.105-0.105 0.18-0.227 0.229-0.357 0.133-0.356 0.057-0.771-0.229-1.057l-4.586-4.586c-0.286-0.286-0.702-0.361-1.057-0.229-0.13 0.048-0.252 0.124-0.357 0.228 0 0-0 0-0 0l-9.708 9.708-9.708-9.708c-0-0-0-0-0-0-0.105-0.104-0.227-0.18-0.357-0.228-0.356-0.133-0.771-0.057-1.057 0.229l-4.586 4.586c-0.286 0.286-0.361 0.702-0.229 1.057 0.049 0.13 0.124 0.252 0.229 0.357 0 0 0 0 0 0l9.708 9.708-9.708 9.708c-0 0-0 0-0 0-0.104 0.105-0.18 0.227-0.229 0.357-0.133 0.355-0.057 0.771 0.229 1.057l4.586 4.586c0.286 0.286 0.702 0.361 1.057 0.229 0.13-0.049 0.252-0.124 0.357-0.229 0-0 0-0 0-0l9.708-9.708 9.708 9.708c0 0 0 0 0 0 0.105 0.105 0.227 0.18 0.357 0.229 0.356 0.133 0.771 0.057 1.057-0.229l4.586-4.586c0.286-0.286 0.362-0.702 0.229-1.057-0.049-0.13-0.124-0.252-0.229-0.357z">
+                            </path>
+                        </symbol>
+                    </use>
+                </svg>
+            </button>
+            <nav>
+                <ul class="mob-menu-list">
+                    <li class="mob-menu-item">
+                        <a href="./index.html" class="mob-menu-link current">Projects</a>
+                    </li>
+                    <li class="mob-menu-item">
+                        <a href="./about.html" class="mob-menu-link">About</a>
+                    </li>
+                    <li class="mob-menu-item">
+                        <a href="./contacts.html" class="mob-menu-link">Contacts</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="menu-soc">
+                <ul class="cont">
+                    <li class="cont-item"><a href="tel:+38269345910" class="mob-menu-tel">+38 (269) 345-910</a></li>
+                    <li class="cont-item"><a href="mailto:sunflower.foundation.ua@gmail.com" class="mob-menu-email">sunflower.foundation.ua@gmail.com</a></li>
+                </ul>
+            </div>
+    </header>
+
+    <main class="main-page">
+        <section class="banner">
+            <div class="wrapper container">
+                <h1 class="banner-title">
+                    Humanitarian aid for refugees
+                    and victims of war
+                </h1>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container container-footer">
+            <div class="footer-logo-pos">
+                <a class="footer-logo" href="./index.html"><img src="/img/logo-footer.png" alt="Sunflower logo"
+                        class="footer-logo-img"></a>
+            </div>
+
+            <nav class="footer-navigation">
+                <ul class="footer-list">
+                    <li class="footer-item">
+                        <a href="./index.html" class="footer-link current">Projects</a>
+                    </li>
+                    <li class="footer-item">
+                        <a href="./about.html" class="footer-link">About</a>
+                    </li>
+                    <li class="footer-item">
+                        <a href="./contacts.html" class="footer-link">Contacts</a>
+                    </li>
+                </ul>
+            </nav>
+            
+            <address class="footer-address">
+                <ul class="footer-address-list">
+                    <li class="footer-address-item"><a href="mailto:sunflower.foundation.ua@gmail.com"
+                            class="footer-address-link">sunflower.foundation.ua@gmail.com</a></li>
+                    <li class="footer-address-item"><a href="tel:+38269345910" class="footer-address-link">+38 (269) 345-910</a>
+                    </li>
+                </ul>
+            </address>
+        </div>
+    </footer>
+</body>
