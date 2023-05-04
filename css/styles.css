@@ -6,8 +6,9 @@ html,
     --logo-color: #4D5AE5;
     --header-background-color: #ffd000d9;
     --header-border-bottom-color: #0118f77a;
-    --banner-background-color: #bebfd7;
+    --banner-background-color: #ffd726;
     --banner-title-color: #050f5d;
+    --news-background-color: #ffd726;
     --footer-background-color: #209dd9;
     --footer-text-color: #ffe600;
     --footer-email-background-color: #2E2F42;
@@ -243,6 +244,10 @@ body {
     opacity: 0;
     visibility: hidden;
     pointer-events: none;
+}
+
+.main-page {
+    background-color: var(--banner-background-color);
 }
 
 .banner {

@@ -65,6 +65,17 @@
         background-color:var(--header-background-color);
     }
 
+
+
+
+
+        /*     B A N N E R     */
+
+
+
+
+
+
     .banner {
         background: var(--banner-background-color);
         text-align: center;
@@ -82,6 +93,45 @@
         width: 494px;
         margin: 0 auto;
     }
+
+
+
+        /*     N E W S     */
+
+
+
+    .news {
+        display: flex;
+        justify-content: center;
+        padding-top: 52px;
+        padding-bottom: 52px;
+        background-color: var(--news-background-color);
+    }
+
+    .news-dio {
+        
+    }
+
+    .news-title {
+        width: 504px;
+        font-size: 32px;
+        line-height: 1.17;
+        color: var(--banner-title-color);
+    }
+
+    .video {
+        width: 640px;
+        height: 480px;
+    }
+
+    .video-play {}
+
+
+
+        /*     F O O T E R     */
+
+
+
 
     .footer {
         padding-top: 36px;
