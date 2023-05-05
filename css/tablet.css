@@ -46,6 +46,19 @@
         list-style-type: none;
     }
 
+    .translate-lng {
+        background: transparent;
+        border: none;
+        margin-left: 8px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .lang-img {
+        display: none;
+        width: 24px;
+    }
+
     .header-logo {
         
     }
@@ -69,6 +82,15 @@
         display: flex;
     }
 
+
+
+
+
+    /*      B A N N E R        */
+
+
+
+
     .banner {
         background: var(--banner-background-color);
         text-align: center;
@@ -87,9 +109,69 @@
         margin: 0 auto;
     }
 
+    
+
+
+    /*         N E W S         */
+
+
+
+    .news {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-top: 120px;
+        padding-bottom: 52px;
+        gap: 40px;
+        background-color: var(--news-background-color);
+    }
+
+    .news-dio {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .news-title {
+        margin-left: auto;
+        
+        margin-bottom: 40px;
+        width: 712px;
+        font-size: 28px;
+        line-height: 1.17;
+        color: var(--banner-title-color);
+    }
+
+    .news-text {
+        margin-bottom: 20px;
+        font-size: 14px;
+        line-height: 1.16;
+        color: var(--banner-title-color);
+    }
+
+    .harm-link {
+        margin: 40px auto;
+        text-decoration: none;
+        font-size: 18px;
+        line-height: 1.14;
+        color: var(--banner-title-color);
+    }
+
+    .video {
+        display: block;
+        width: 640px;
+        height: 480px;
+    }
+
+
+
+    /*         F O O T E R           */
+
+
+
     .footer {
         padding-top: 36px;
-        padding-bottom: 56px;
+        padding-bottom: 36px;
         background: var(--footer-background-color);
     }
 
@@ -102,9 +184,14 @@
 
     .footer-navigation {}
 
+    .footer-logo-pos {
+        padding-top: 20px;
+    }
+
     .footer-logo {}
 
     .footer-logo-img {
+        
         margin-left: 20px;
         width: 73px;
         height: 73px;

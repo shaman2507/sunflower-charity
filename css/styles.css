@@ -6,6 +6,7 @@ html,
     --logo-color: #4D5AE5;
     --header-background-color: #ffd000d9;
     --header-border-bottom-color: #0118f77a;
+    --mob-menu-background: #ffd000;
     --banner-background-color: #ffd726;
     --banner-title-color: #050f5d;
     --news-background-color: #ffd726;
@@ -108,7 +109,7 @@ body {
 
 .header-link:hover,
 .header-link:focus {
-    color: darkgoldenrod;
+    color: var(--hover-focus-color);
 }
 
 .header-address {
@@ -142,6 +143,10 @@ body {
     color: var(--hover-focus-color);
 }
 
+.translate-lng {
+    display: none;
+}
+
 .menu-open-btn {
     border: none;
     margin-right: 20px;
@@ -163,7 +168,7 @@ body {
     width: 100%;
     height: 100vh;
     padding: 24px 24px 40px 40px;
-    background-color: #FFFFFF;
+    background-color: var(--mob-menu-background);
 }
 
 .menu-close-btn {
@@ -199,7 +204,7 @@ body {
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color: var(--banner-title-color);
 }
 
 .mob-menu-link:is(:hover, :focus) {
@@ -218,10 +223,10 @@ body {
 .mob-menu-email {
     text-decoration: none;
     font-weight: 500;
-    font-size: 20px;
+    font-size: 16px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--banner-title-color);
 }
 
 .mob-menu-tel {
@@ -229,7 +234,7 @@ body {
     font-weight: 600;
     font-size: 26px;
     line-height: 1.11;
-    color: #434455;
+    color: var(--banner-title-color);
 }
 
 .mob-menu-tel:is(:hover, :focus) {
@@ -245,6 +250,13 @@ body {
     visibility: hidden;
     pointer-events: none;
 }
+
+
+
+/*      B A N N E R        */
+
+
+
 
 .main-page {
     background-color: var(--banner-background-color);
@@ -267,6 +279,72 @@ body {
     width: 288px;
     margin: 0 auto;
 }
+
+
+
+
+/*     N E W S     */
+
+
+
+
+.news {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 120px;
+    padding-bottom: 52px;
+    gap: 40px;
+    background-color: var(--news-background-color);
+}
+
+.news-dio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.news-title {
+    font-size: 24px;
+    line-height: 1.10;
+    color: var(--banner-title-color);
+    width: 288px;
+    margin-bottom: 28px;
+}
+
+.news-text {
+    margin-bottom: 20px;
+    font-size: 16px;
+    line-height: 1.10;
+    color: var(--banner-title-color);
+}
+
+.harmony-logo {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.harm-link {
+    margin: 40px auto;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 1.14;
+    color: var(--banner-title-color);
+
+}
+
+.video {
+    display: none;
+    
+}
+
+.video-play {}
+
+
+/*       F O O T E R       */
+
+
+
 
 .footer {
     padding-top: 36px;
@@ -312,6 +390,11 @@ body {
     color: var(--footer-text-color);
 }
 
+.footer-link:hover,
+.footer-link:focus {
+    color: var(--hover-focus-color);
+}
+
 .footer-address {}
 
 .footer-address-list {
@@ -327,4 +410,9 @@ body {
 .footer-address-link {
     text-decoration: none;
     color: var(--footer-text-color);
+}
+
+.footer-address-link:hover,
+.footer-address-link:focus {
+    color: var(--hover-focus-color);
 }
