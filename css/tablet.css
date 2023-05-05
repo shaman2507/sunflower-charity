@@ -185,16 +185,18 @@
     .footer-navigation {}
 
     .footer-logo-pos {
-        padding-top: 20px;
+        
     }
 
     .footer-logo {}
 
-    .footer-logo-img {
-        
-        margin-left: 20px;
-        width: 73px;
-        height: 73px;
+    .footer-link-text {
+        width: 180px;
+        margin-top: 12px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.16;
+        letter-spacing: 0.04em;
     }
 
     .footer-list {

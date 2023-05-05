@@ -362,12 +362,17 @@ body {
 
 .footer-navigation {}
 
-.footer-logo {}
+.footer-logo {
+    
+    text-decoration: none;
+}
 
-.footer-logo-img {
-    width: 100px;
-    height: 100px;
-    margin-bottom: 24px;
+.footer-link-text {
+    margin-top: 48px;
+    width: 216px;
+    font-size: 20px;
+    line-height: 1.10;
+    
 }
 
 .footer-list {
