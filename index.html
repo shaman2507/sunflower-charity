@@ -31,13 +31,13 @@
                 <a class="header-logo" href="./index.html"><img src="/img/logo.png" alt="Sunflower logo" class="header-logo-img"></a>
                 <ul class="header-list">
                     <li class="header-item">
-                        <a href="./index.html" class="header-link current">Projects</a>
+                        <a href="./index.html" class="header-link current" data-lang="projects">Projects</a>
                     </li>
                     <li class="header-item">
-                        <a href="./about.html" class="header-link">About</a>
+                        <a href="./about.html" class="header-link" data-lang="about">About</a>
                     </li>
                     <li class="header-item">
-                        <a href="./contacts.html" class="header-link">Contacts</a>
+                        <a href="./contacts.html" class="header-link" data-lang="contact">Contact us</a>
                     </li>
                 </ul>
             </nav>
@@ -50,6 +50,16 @@
                     </li>
                 </ul>
             </address>
+
+            <div class="translate">
+                <button data-btn="en" class="translate-lng translate-btn-active">
+                    <img src="./img/icons8-соединенное-королевство-48.png" alt="en flag" width="30" height="30" class="lang-img">
+                </button>
+                <button data-btn="ua" class="translate-lng translate-btn-active">
+                    <img src="./img/icons8-украина-48.png" alt="ua flag" width="30" height="30" class="lang-img">
+                </button>
+            </div>
+            
 
             <button type="button" class="menu-open-btn" data-menu-open>
                 <svg class="menu-btn-icon" width="32" height="28">
@@ -77,13 +87,13 @@
             <nav>
                 <ul class="mob-menu-list">
                     <li class="mob-menu-item">
-                        <a href="./index.html" class="mob-menu-link current">Projects</a>
+                        <a href="./index.html" class="mob-menu-link  current">Projects</a>
                     </li>
                     <li class="mob-menu-item">
-                        <a href="./about.html" class="mob-menu-link">About</a>
+                        <a href="./about.html" class="mob-menu-link ">About</a>
                     </li>
                     <li class="mob-menu-item">
-                        <a href="./contacts.html" class="mob-menu-link">Contacts</a>
+                        <a href="./contacts.html" class="mob-menu-link ">Contacts</a>
                     </li>
                 </ul>
             </nav>
@@ -98,7 +108,7 @@
     <main class="main-page">
         <section class="banner">
             <div class="wrapper container">
-                <h1 class="banner-title">
+                <h1 class="banner-title ">
                     Humanitarian aid for refugees
                     and victims of war
                 </h1>
@@ -108,12 +118,32 @@
         <section class="news container">
             <div class="news-dio">
                 <h2 class="news-title">
-                    Kids educational center in Montenegro
-                    Summer 2023
+                    Opening of the Children's Art Center "Sunflower"
                 </h2>
+                <p class="news-text">
+                    Charitable Foundation "Fondacija Sunflower" (registration number PIB 11081932, Montenegro) starts the implementation of
+                    the charity program "Children and Art for Ukraine", which provides support in continuing art education and psychological
+                    rehabilitation of children and youth from different regions of Ukraine during the war.
+                    THE PROGRAM IS SUPPORTED BY THE EMBASSY OF UKRAINE IN MONTENEGRO.
+                    In the summer of 2023, the Charity Program "Children and Art for Ukraine" envisages opening of the Children's Art Center
+                    "Sunflower" (Budva, Montenegro). The program of the art center provides for 6 thematic shifts lasting 21 days each from
+                    1.06 to 29.09.2023. Program of the art center foresees plein airs (open air art workshops) for young artists, work of
+                    summer vocal and choreographic schools and implementation of activities and excursion programs to meet the cognitive,
+                    educational and cultural needs of this charity program participants, their psychological rehabilitation and fulfillment
+                    of creative potential. According to the results of thematic shifts, charity exhibitions of paintings and performances by
+                    creative teams of "Kids and ART for UKRAINE" program participants will be organized.
+                    WE INVITE SPONSORS TO COOPERATE WITH THIS CHARITY ART PROGRAM TO SUPPORT UKRAINIAN CHILDREN. Charitable funds for the
+                    implementation of the Children's Art Center "Sunflower" work program will be used to pay for accommodation and meals for
+                    the participants of the charity program and organization of artistic and educational events and excursions.
+                    PARTNERS OF THE PROGRAM in Ukraine - NGO "International Educational and Cultural Association" International Educational
+                    Cultural Association and Charity Fund "International Education School".
+                    More about the activities of the charity program "Kids and ART for UKRAINE" during the war can be found on the partners'
+                    website here:
+                </p>
+                <a class="harm-link" href="https://harmonyworld.com.ua/?page_id=6962&lang=en">https://harmonyworld.com.ua/?page_id=6962&lang=en</a>
             </div>
             <div class="video">
-                <iframe src="https://drive.google.com/file/d/1s755RB6hROWNk8K_7JxZMaJmEQFzipHM/preview" class="video-play" width="640" height="480"
+                <iframe src="https://drive.google.com/file/d/1s755RB6hROWNk8K_7JxZMaJmEQFzipHM/preview" class="video-play" width="720" height="480"
                     allow="autoplay">
                 </iframe>
             </div>
@@ -130,7 +160,7 @@
             <nav class="footer-navigation">
                 <ul class="footer-list">
                     <li class="footer-item">
-                        <a href="./index.html" class="footer-link current">Projects</a>
+                        <a href="./index.html" class="footer-link  current">Projects</a>
                     </li>
                     <li class="footer-item">
                         <a href="./about.html" class="footer-link">About</a>
@@ -151,4 +181,7 @@
             </address>
         </div>
     </footer>
+    <script src="./js/lang.js"></script>
+    <script src="./js/app.js"></script>
+    
 </body>
