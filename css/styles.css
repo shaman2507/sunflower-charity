@@ -143,7 +143,7 @@ body {
     color: var(--hover-focus-color);
 }
 
-.translate-lng {
+.lng-link {
     display: none;
 }
 

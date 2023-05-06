@@ -19,8 +19,8 @@
         list-style-type: none;
         display: flex;
         align-items: center;
-        gap: 40px;
-        margin-left: 123px;
+        gap: 24px;
+        margin-left: 88px;
     }
 
     .header-address {
@@ -38,6 +38,10 @@
         list-style-type: none;
     }
 
+    .header-link {
+        font-size: 14px;
+    }
+
     .header-address-link {
         font-weight: 400;
         font-size: 12px;
@@ -46,7 +50,7 @@
         list-style-type: none;
     }
 
-    .translate-lng {
+    .translate {
         background: transparent;
         border: none;
         margin-left: 8px;
@@ -54,8 +58,14 @@
         flex-direction: column;
     }
 
+    .lng-link {
+        display: flex;
+        margin-top: 5px;
+        margin-left: 10px;
+    }
+
     .lang-img {
-        display: none;
+        
         width: 24px;
     }
 
@@ -120,7 +130,7 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
-        padding-top: 120px;
+        padding-top: 96px;
         padding-bottom: 52px;
         gap: 40px;
         background-color: var(--news-background-color);
@@ -134,9 +144,8 @@
 
     .news-title {
         margin-left: auto;
-        
         margin-bottom: 40px;
-        width: 712px;
+        width: 720px;
         font-size: 28px;
         line-height: 1.17;
         color: var(--banner-title-color);
@@ -213,7 +222,7 @@
 
     .footer-link {
         font-weight: 400;
-        font-size: 16px;
+        font-size: 12px;
         line-height: 1.33;
         letter-spacing: 0.04em;
         text-decoration: none;
