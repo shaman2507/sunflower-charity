@@ -239,4 +239,8 @@
         text-decoration: none;
         color: var(--footer-text-color);
     }
+
+    .translate-footer {
+        display: none;
+    }
 }   

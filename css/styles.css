@@ -143,7 +143,11 @@ body {
     color: var(--hover-focus-color);
 }
 
-.lng-link {
+.translate {
+    display: none;
+}
+
+.lang-link {
     display: none;
 }
 
@@ -420,4 +424,10 @@ body {
 .footer-address-link:hover,
 .footer-address-link:focus {
     color: var(--hover-focus-color);
+}
+
+.translate-footer {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
 }
